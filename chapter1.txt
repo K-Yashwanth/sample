@@ -1,0 +1,13 @@
+ step-1: git init
+ //it initialises the git.
+ step-2: git status
+ //it currently in the staging area.i.e, status of the staging area, 
+ //which displays the list of files added and not added into staging area. 'not added' will be in 'red color' and 
+ 'added' will be in 'green color', it is ready to get commit.
+ step-3: git add "file name"
+ //it is used add file into staging area
+ step-4:git commit -m ""message""
+ //this add the file into git repository with version and version name will be the message u give in the command.
+ step-5: git log 
+ //we can see what and all we commited.
+ 
